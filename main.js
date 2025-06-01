@@ -55,3 +55,7 @@ const divWarning = document.querySelector(".warning")
 
     showItemsList()
 }
+
+function addHideWarningClass() {
+     document.querySelector(".warning").classList.add("hide-warning")
+ }

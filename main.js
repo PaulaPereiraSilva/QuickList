@@ -44,9 +44,9 @@ const itemIndex = items.findIndex((item) => item.name === itemName)
 
 console.log(itemIndex)
 
-if (itemIndex !== -1) {
-    items.splice(itemIndex, 1)
-}
+if (itemIndex !== -1){
+items.splice(itemIndex, 1)
+    }
 
-showItemsList()
+    showItemsList()
 }
